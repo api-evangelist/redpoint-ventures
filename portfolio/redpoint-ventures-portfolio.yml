@@ -3,9 +3,9 @@ method: searched
 source: https://www.redpoint.com/companies/
 summary:
   portfolio_total: 229
-  in_network: 97
-  api_providers: 52
-  missing: 132
+  in_network: 229
+  api_providers: 67
+  missing: 0
   stubs_created: 0
 companies:
 - name: 2U
@@ -17,7 +17,7 @@ companies:
   slug: 2u
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Aaru
   url: https://aaru.com/
   description: AI prediction and forecasting models
@@ -27,7 +27,7 @@ companies:
   slug: aaru
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Abridge
   url: https://www.abridge.com/
   description: AI medical documentation from clinical conversations
@@ -41,30 +41,34 @@ companies:
 - name: Acompli
   url: https://www.acompli.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acompli
+  slug: acompli
+  matched_by: domain
 - name: Acuitymd
   url: https://acuitymd.com/
   description: Commercial intelligence platform for medtech
   sector: healthtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acuitymd
+  slug: acuitymd
+  matched_by: domain
 - name: Adap.tv
   url: http://www.adap.tv/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adaptv
+  slug: adaptv
+  matched_by: domain
 - name: Airmeet
   url: https://www.airmeet.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: airmeet
+  in_network: true
+  is_api_provider: true
+  slug: airmeet
+  matched_by: domain
 - name: Alchemy
   url: https://www.alchemy.com/
   description: Blockchain developer platform and node infrastructure
@@ -81,42 +85,47 @@ companies:
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: anam
+  in_network: true
+  is_api_provider: true
+  slug: anam
+  matched_by: domain
 - name: Answers.com
   url: http://www.answers.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: answerscom
+  slug: answerscom
+  matched_by: domain
 - name: Anvyl
   url: https://www.anvyl.com/
   description: Supply-chain and supplier management platform
   sector: logistics
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anvyl
+  slug: anvyl
+  matched_by: domain
 - name: Appzen
   url: https://www.appzen.com/
   description: AI-powered finance and expense automation
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: appzen
+  in_network: true
+  is_api_provider: true
+  slug: appzen
+  matched_by: domain
 - name: Arctic Wolf Networks
   url: http://arcticwolf.com/
   description: Security operations and managed detection and response
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arctic-wolf-networks
+  slug: arctic-wolf-networks
+  matched_by: domain
 - name: Arista Networks
   url: http://www.aristanetworks.com/
   description: Cloud networking switches and software
@@ -130,21 +139,24 @@ companies:
 - name: Ask
   url: http://www.ask.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ask
+  slug: ask
+  matched_by: domain
 - name: Astro
   url: https://www.helloastro.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astro
+  slug: astro
+  matched_by: name-slug
 - name: Atmosfy
   url: https://atmosfy.io/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atmosfy
+  slug: atmosfy
+  matched_by: domain
 - name: Attio
   url: https://attio.com/
   description: AI-native customer relationship management platform
@@ -158,15 +170,17 @@ companies:
 - name: Auditude
   status: acquired
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: auditude
+  slug: auditude
+  matched_by: name-slug
 - name: Augment
   url: https://www.goaugment.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: augment
+  in_network: true
+  is_api_provider: true
+  slug: augment
+  matched_by: domain
 - name: AutoGPT
   url: https://agpt.co/
   source: https://www.redpoint.com/companies/
@@ -177,18 +191,20 @@ companies:
 - name: Avnera
   url: http://www.avnera.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avnera
+  slug: avnera
+  matched_by: domain
 - name: BioAge Labs
   url: http://bioagelabs.com/
   description: Biotechnology company targeting aging
   sector: healthtech
   status: ipo
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bioage-labs
+  slug: bioagelabs
+  matched_by: domain
 - name: BitGo
   url: https://www.bitgo.com/info/
   description: Digital asset custody and security platform
@@ -212,54 +228,62 @@ companies:
 - name: Bluefin Labs
   url: http://bluefinlabs.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluefin-labs
+  slug: bluefin-labs
+  matched_by: domain
 - name: BlueKai
   url: http://www.bluekai.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluekai
+  slug: bluekai
+  matched_by: domain
 - name: Boon
   url: https://www.getboon.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boon
+  slug: boon
+  matched_by: name-slug
 - name: Bravado
   url: https://bravado.co/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bravado
+  slug: bravado
+  matched_by: domain
 - name: Bright Health
   url: http://www.brighthealthplan.com/
   description: Technology-enabled health insurance
   sector: healthtech
   status: ipo
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bright-health
+  slug: bright-health
+  matched_by: domain
 - name: Button
   url: http://www.usebutton.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: button
+  in_network: true
+  is_api_provider: true
+  slug: usebutton
+  matched_by: domain
 - name: Cascade
   url: https://www.cascade.io/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cascade
+  slug: cascade
+  matched_by: domain
 - name: Caspida
   url: http://www.caspida.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caspida
+  slug: caspida
+  matched_by: domain
 - name: Chainguard
   url: https://www.chainguard.dev/
   description: Secure container images and software supply-chain security
@@ -273,9 +297,10 @@ companies:
 - name: Champ Ai
   url: https://www.champ.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: champ-ai
+  slug: champ-ai
+  matched_by: domain
 - name: Chorus.ai
   url: https://www.chorus.ai/
   source: https://www.redpoint.com/companies/
@@ -289,21 +314,24 @@ companies:
   sector: healthtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cityblock-health
+  slug: cityblock
+  matched_by: domain
 - name: Clearwell Systems
   url: http://www.clearwellsystems.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clearwell-systems
+  slug: clearwell-systems
+  matched_by: domain
 - name: Clicker
   url: http://www.clicker.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clicker
+  slug: clicker
+  matched_by: domain
 - name: ClickHouse
   url: https://clickhouse.com/
   source: https://www.redpoint.com/companies/
@@ -321,9 +349,10 @@ companies:
 - name: Cloudsimple
   url: http://www.cloudsimple.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudsimple
+  slug: cloudsimple
+  matched_by: domain
 - name: Cockroach Labs
   url: https://www.cockroachlabs.com/
   description: Distributed SQL database (CockroachDB)
@@ -347,27 +376,30 @@ companies:
 - name: Collate
   url: https://collate.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: collate
+  in_network: true
+  is_api_provider: true
+  slug: collate
+  matched_by: domain
 - name: Collective Health
   url: https://collectivehealth.com/
   description: Health benefits administration platform
   sector: healthtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collective-health
+  slug: collective-health
+  matched_by: domain
 - name: Comun
   url: https://www.comun.app/en
   description: Digital banking for Latino immigrants in the US
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: comun
+  slug: comun
+  matched_by: domain
 - name: Cribl
   url: https://cribl.io/
   description: Observability data pipeline and telemetry management
@@ -381,18 +413,20 @@ companies:
 - name: Crossbeam
   url: http://www.crossbeam.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crossbeam
+  slug: crossbeam
+  matched_by: domain
 - name: Cyberhaven
   url: https://www.cyberhaven.com/
   description: Data detection and response platform
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cyberhaven
+  slug: cyberhaven
+  matched_by: domain
 - name: Cyera
   url: https://www.cyera.com/
   description: Data security posture management platform
@@ -402,16 +436,17 @@ companies:
   slug: cyera
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Cyral
   url: https://www.cyral.com/
   description: Data access governance and security
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cyral
+  slug: cyral
+  matched_by: domain
 - name: Dagger
   url: https://dagger.io/
   description: Programmable CI/CD engine and container workflows
@@ -425,9 +460,10 @@ companies:
 - name: Danger
   status: acquired
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: danger
+  slug: danger
+  matched_by: name-slug
 - name: Databento
   url: https://databento.com/
   description: Market data API and infrastructure
@@ -471,9 +507,10 @@ companies:
 - name: Dome Systems
   url: https://www.domesystems.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dome-systems
+  slug: dome-systems
+  matched_by: domain
 - name: DraftKings
   url: https://www.draftkings.com/
   description: Online sports betting and daily fantasy sports
@@ -500,9 +537,9 @@ companies:
   sector: data
   status: active
   source: https://www.redpoint.com/companies/
-  slug: dremio-intelligent-lakehouse-platform
+  slug: dremio
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Dune Analytics
   url: https://dune.xyz/home
@@ -527,48 +564,54 @@ companies:
 - name: Dux
   url: https://dux.io/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dux
+  slug: dux
+  matched_by: domain
 - name: eBureau
   url: http://www.ebureau.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ebureau
+  slug: ebureau
+  matched_by: domain
 - name: Eero
   url: http://www.eero.com/
   description: Mesh Wi-Fi home networking (acquired by Amazon)
   sector: consumer
   status: acquired
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eero
+  slug: eero
+  matched_by: domain
 - name: Efficient Frontier
   url: http://www.efrontier.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: efficient-frontier
+  slug: efficient-frontier
+  matched_by: domain
 - name: Every
   url: https://www.every.io/
   description: Financial operations platform for startups
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: every
+  slug: every
+  matched_by: domain
 - name: Fable Security
   url: https://www.fablesecurity.com/
   description: Human risk and security awareness platform
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fable-security
+  slug: fable-security
+  matched_by: domain
 - name: Fabric
   url: https://fabric.inc/
   description: Headless commerce platform
@@ -582,24 +625,27 @@ companies:
 - name: Fimio
   url: https://fimio.xyz/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fimio
+  slug: fimio
+  matched_by: domain
 - name: Finch Legal
   url: https://www.finchlegal.com/
   description: AI tooling for legal work
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finch-legal
+  slug: finch-legal
+  matched_by: domain
 - name: Fixie
   url: https://www.fixie.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fixie
+  in_network: true
+  is_api_provider: true
+  slug: fixie
+  matched_by: name-slug
 - name: Flexe
   url: https://www.flexe.com/
   description: On-demand warehousing and logistics platform
@@ -616,9 +662,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: floqast
+  slug: floqast
+  matched_by: domain
 - name: Flora Fauna
   url: https://www.florafauna.ai/
   source: https://www.redpoint.com/companies/
@@ -639,9 +686,10 @@ companies:
 - name: Forus
   url: https://forus.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forus
+  slug: forus
+  matched_by: domain
 - name: Function Health
   url: https://www.functionhealth.com/
   description: Consumer lab testing and health monitoring
@@ -650,7 +698,7 @@ companies:
   source: https://www.redpoint.com/companies/
   slug: function-health
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Galileo
   url: https://galileohealth.com/
@@ -658,51 +706,58 @@ companies:
   sector: healthtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: galileo
+  slug: galileo
+  matched_by: name-slug
 - name: Garner
   url: https://www.getgarner.com/
   description: Healthcare data and provider quality platform
   sector: healthtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: garner
+  in_network: true
+  is_api_provider: true
+  slug: garner-health
+  matched_by: domain
 - name: Giga
   url: https://giga.ai/
   description: AI voice agents
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: giga
+  slug: giga
+  matched_by: domain
 - name: Gigster
   url: https://gigster.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gigster
+  slug: gigster
+  matched_by: domain
 - name: Golden Child
   url: http://mygoldenchild.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: golden-child
+  slug: golden-child
+  matched_by: domain
 - name: Gravity
   url: http://www.gravity.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gravity
+  slug: gravity
+  matched_by: name-slug
 - name: GreenPlaces
   url: https://greenplaces.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greenplaces
+  slug: greenplaces
+  matched_by: domain
 - name: Gremlin
   url: http://www.gremlin.com/
   description: Chaos engineering and reliability testing platform
@@ -719,9 +774,10 @@ companies:
   sector: edtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guild
+  slug: guild
+  matched_by: domain
 - name: HashiCorp
   url: https://www.hashicorp.com/
   description: Multi-cloud infrastructure automation software (Terraform, Vault, Consul)
@@ -755,7 +811,7 @@ companies:
   sector: data
   status: active
   source: https://www.redpoint.com/companies/
-  slug: hexa
+  slug: hex
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -765,18 +821,20 @@ companies:
   sector: healthtech
   status: ipo
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hims
+  slug: hims
+  matched_by: domain
 - name: HomeAway
   url: http://www.homeaway.com/
   description: Vacation rental marketplace (acquired by Expedia)
   sector: consumer
   status: acquired
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homeaway
+  slug: homeaway
+  matched_by: domain
 - name: HumanSignal
   url: https://humansignal.com/
   source: https://www.redpoint.com/companies/
@@ -797,51 +855,58 @@ companies:
 - name: Impact Radius
   url: http://www.impactradius.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: impact-radius
+  slug: impact-radius
+  matched_by: name-slug
 - name: Imper
   url: https://imper.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imper
+  slug: imper
+  matched_by: domain
 - name: Inferact
   url: https://inferact.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inferact
+  slug: inferact
+  matched_by: domain
 - name: Intent Media
   url: http://www.intentmedia.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intent-media
+  slug: intent-media
+  matched_by: domain
 - name: Internet Brands
   url: http://www.internetbrands.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: internet-brands
+  slug: internet-brands
+  matched_by: domain
 - name: Irregular
   url: https://www.irregular.com/
   description: AI security and frontier model safety
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: irregular
+  slug: irregular
+  matched_by: domain
 - name: Jetstream
   url: https://jetstream.security/
   description: Security infrastructure
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jetstream
+  slug: jetstream
+  matched_by: domain
 - name: Juniper
   url: http://www.juniper.net/
   description: Networking hardware and software (Juniper Networks)
@@ -858,15 +923,17 @@ companies:
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juniper-square
+  slug: junipersquare
+  matched_by: domain
 - name: Just Eat
   url: http://www.just-eat.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: just-eat
+  in_network: true
+  is_api_provider: true
+  slug: just-eat
+  matched_by: domain
 - name: Justworks
   url: https://justworks.com/
   description: HR, payroll, and benefits platform for small business
@@ -883,27 +950,31 @@ companies:
   sector: deeptech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: k2-space
+  slug: k2-space
+  matched_by: domain
 - name: Kabam
   url: http://www.kabam.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kabam
+  slug: kabam
+  matched_by: domain
 - name: Kazeon
   url: http://www.kazeon.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kazeon
+  slug: kazeon
+  matched_by: domain
 - name: Kodiak Networks
   url: http://www.kodiaknetworks.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kodiak-networks
+  slug: kodiak-networks
+  matched_by: domain
 - name: Kustomer
   url: https://www.kustomer.com/
   description: Customer service CRM platform (acquired by Meta)
@@ -920,9 +991,10 @@ companies:
   sector: cybersecurity
   status: acquired
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lastline
+  slug: lastline
+  matched_by: domain
 - name: LaunchDarkly
   url: https://launchdarkly.com/
   description: Feature flag and experimentation management platform
@@ -949,24 +1021,27 @@ companies:
   sector: saas
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: levelpath
+  slug: levelpath
+  matched_by: domain
 - name: Liberate
   url: https://www.liberateinc.com/
   description: AI automation for insurance carriers
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: liberate
+  in_network: true
+  is_api_provider: true
+  slug: liberate-innovations
+  matched_by: domain
 - name: Lifesize
   url: https://www.lifesize.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lifesize
+  slug: lifesize
+  matched_by: domain
 - name: Lightstep
   url: http://www.lightstep.com/
   description: Observability and distributed tracing (acquired by ServiceNow)
@@ -983,9 +1058,10 @@ companies:
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lilt
+  in_network: true
+  is_api_provider: true
+  slug: lilt
+  matched_by: domain
 - name: Livekit
   url: https://livekit.io/
   description: Open-source real-time audio and video infrastructure
@@ -1002,9 +1078,10 @@ companies:
   sector: logistics
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: logixboard
+  slug: logixboard
+  matched_by: domain
 - name: Looker
   url: https://www.looker.com/
   description: Business intelligence and data analytics platform (acquired by Google)
@@ -1048,14 +1125,14 @@ companies:
   slug: maxima
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Mind Robotics
   url: https://www.mindrobotics.com/
   source: https://www.redpoint.com/companies/
   slug: mind-robotics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Mistral AI
   url: https://mistral.ai/
   description: Open-weight large language models and AI platform
@@ -1069,9 +1146,10 @@ companies:
 - name: Mithril
   url: https://mithril.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mithril
+  in_network: true
+  is_api_provider: true
+  slug: mithril
+  matched_by: domain
 - name: Modal
   url: https://modal.com/
   description: Serverless cloud platform for AI and data workloads
@@ -1115,24 +1193,26 @@ companies:
 - name: Motif
   url: https://motif.io/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: motif
+  slug: motif
+  matched_by: domain
 - name: MySpace
   url: http://www.myspace.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: myspace
+  slug: myspace
+  matched_by: domain
 - name: Mysten Labs
   url: https://mystenlabs.com/
   description: Web3 infrastructure and the Sui blockchain
   sector: crypto
   status: active
   source: https://www.redpoint.com/companies/
-  slug: sui
+  slug: mysten-labs
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: n8n
   url: https://n8n.io/
@@ -1179,9 +1259,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: northone
+  slug: northone
+  matched_by: domain
 - name: Nubank
   url: https://www.nubank.com.br/
   description: Digital bank and financial services in Latin America
@@ -1195,42 +1276,47 @@ companies:
 - name: Nuon
   url: https://nuon.co/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nuon
+  in_network: true
+  is_api_provider: true
+  slug: nuon
+  matched_by: domain
 - name: Offchain
   url: https://www.offchainlabs.com/
   description: Layer-2 Ethereum scaling (Arbitrum, Offchain Labs)
   sector: crypto
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: offchain
+  slug: offchain-labs-arbitrum
+  matched_by: domain
 - name: Omni
   url: https://www.exploreomni.com/
   description: Business intelligence and analytics platform
   sector: data
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omni
+  slug: omni-analytics
+  matched_by: domain
 - name: OnPlan
   url: https://onplan.co/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onplan
+  slug: onplan
+  matched_by: domain
 - name: Open English
   url: http://www.openenglish.com/
   description: Online English-language learning platform
   sector: edtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: open-english
+  slug: openenglish
+  matched_by: domain
 - name: OpenAI
   url: https://openai.com/
   description: AI research lab and maker of ChatGPT and the OpenAI API
@@ -1244,9 +1330,10 @@ companies:
 - name: Opsani
   url: https://opsani.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opsani
+  slug: opsani
+  matched_by: domain
 - name: Orca Security
   url: https://orca.security/
   description: Agentless cloud security platform
@@ -1273,15 +1360,17 @@ companies:
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parafin
+  slug: parafin
+  matched_by: domain
 - name: Peel
   url: http://www.peel.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peel
+  slug: peel
+  matched_by: domain
 - name: Physical Intelligence
   url: https://www.pi.website/
   description: Foundation models for robotics
@@ -1298,34 +1387,37 @@ companies:
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pindrop-security
+  slug: pindrop-security
+  matched_by: name-slug
 - name: Platform9
   url: http://platform9.com/
   description: Managed Kubernetes and private cloud
   sector: infrastructure
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: platform9
+  slug: platform9
+  matched_by: domain
 - name: Poolside
   url: https://poolside.ai/
   description: AI foundation models for software development
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  slug: poolside-ai
+  slug: poolside
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Posterous
   url: http://posterous.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: posterous
+  slug: posterous
+  matched_by: domain
 - name: Preset
   url: https://preset.io/
   description: Cloud analytics and dashboards built on Apache Superset
@@ -1342,9 +1434,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proper
+  slug: proper
+  matched_by: name-slug
 - name: PsiQuantum
   url: https://psiquantum.com/
   source: https://www.redpoint.com/companies/
@@ -1368,9 +1461,10 @@ companies:
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: push-security
+  slug: push-security
+  matched_by: domain
 - name: Qualified
   url: https://www.qualified.com/
   description: AI pipeline generation and conversational marketing
@@ -1404,15 +1498,17 @@ companies:
 - name: RelateIQ
   url: https://www.relateiq.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: relateiq
+  slug: relateiq
+  matched_by: domain
 - name: Responsys
   url: http://www.responsys.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: responsys
+  slug: responsys
+  matched_by: name-slug
 - name: Restate
   url: https://restate.dev/
   description: Durable execution engine for distributed applications
@@ -1433,9 +1529,10 @@ companies:
 - name: Right Media
   url: http://www.rightmedia.com/index.php
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: right-media
+  slug: right-media
+  matched_by: domain
 - name: Root Insurance
   url: https://www.joinroot.com/
   description: Data-driven car insurance company
@@ -1449,31 +1546,34 @@ companies:
 - name: Sail
   url: https://www.sailresearch.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sail
+  in_network: true
+  is_api_provider: true
+  slug: sail-research
+  matched_by: domain
 - name: Saysh
   url: https://saysh.com/
   description: Women-led footwear and lifestyle brand
   sector: consumer
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saysh
+  slug: saysh
+  matched_by: domain
 - name: Scale3
   url: https://www.scale3labs.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scale3
+  in_network: true
+  is_api_provider: true
+  slug: scale3
+  matched_by: domain
 - name: Scribd
   url: http://www.scribd.com/
   description: Digital library and reading subscription
   sector: consumer
   status: active
   source: https://www.redpoint.com/companies/
-  slug: cargowise
+  slug: scribd
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1483,9 +1583,10 @@ companies:
   sector: saas
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scribe
+  in_network: true
+  is_api_provider: true
+  slug: scribe
+  matched_by: domain
 - name: Semgrep
   url: https://semgrep.dev/
   description: Static analysis and code security scanning
@@ -1512,39 +1613,44 @@ companies:
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: serval
+  in_network: true
+  is_api_provider: true
+  slug: serval
+  matched_by: domain
 - name: Sesame
   url: https://www.sesame.com/
   description: Conversational AI and voice technology
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sesame
+  slug: sesame
+  matched_by: name-slug
 - name: Signadot
   url: https://signadot.com/
   description: Kubernetes environments for microservice testing
   sector: developer-tools
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: signadot
+  in_network: true
+  is_api_provider: true
+  slug: signadot
+  matched_by: domain
 - name: Silk & Sonder
   url: http://www.silkandsonder.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silk-and-sonder
+  slug: silk-and-sonder
+  matched_by: domain
 - name: Simpo
   url: https://www.simpo.io/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simpo
+  slug: simpo
+  matched_by: domain
 - name: Snowflake
   url: https://www.snowflake.com/
   description: Cloud data warehouse and data cloud platform
@@ -1568,9 +1674,10 @@ companies:
   sector: consumer
   status: ipo
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sonos
+  slug: sonos
+  matched_by: domain
 - name: Sourcegraph
   url: https://sourcegraph.com/
   description: Code search and code intelligence platform
@@ -1584,15 +1691,17 @@ companies:
 - name: Spot
   url: https://www.spot.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spot
+  in_network: true
+  is_api_provider: true
+  slug: spot
+  matched_by: domain
 - name: Springpath
   url: http://www.springpathinc.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: springpath
+  slug: springpath
+  matched_by: domain
 - name: Stackrox
   source: https://www.redpoint.com/companies/
   slug: stackrox
@@ -1602,9 +1711,10 @@ companies:
 - name: StorSimple
   url: http://www.storsimple.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: storsimple
+  slug: storsimple
+  matched_by: domain
 - name: Stripe
   url: https://stripe.com/
   description: Payments infrastructure and financial APIs for the internet
@@ -1621,33 +1731,38 @@ companies:
   sector: healthtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strive-health
+  slug: strive-health
+  matched_by: domain
 - name: Tact.ai
   url: https://tact.ai/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tactai
+  slug: tactai
+  matched_by: domain
 - name: Tantalus
   url: http://www.tantalus.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tantalus
+  slug: tantalus
+  matched_by: domain
 - name: Tastemade
   url: http://www.tastemade.com/about
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tastemade
+  slug: tastemade
+  matched_by: domain
 - name: Tend
   url: https://www.hellotend.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tend
+  slug: tend
+  matched_by: domain
 - name: Tenor
   url: https://www.tenor.co/
   source: https://www.redpoint.com/companies/
@@ -1658,18 +1773,20 @@ companies:
 - name: The Rounds
   url: https://www.therounds.co/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-rounds
+  slug: the-rounds
+  matched_by: domain
 - name: ThredUp
   url: http://www.thredup.com/
   description: Online resale marketplace for secondhand clothing
   sector: ecommerce
   status: ipo
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thredup
+  slug: thredup
+  matched_by: domain
 - name: Timescale
   url: https://www.timescale.com/
   description: Time-series database built on PostgreSQL
@@ -1693,45 +1810,50 @@ companies:
 - name: Transform
   url: https://transform.co/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: transform
+  slug: transform
+  matched_by: domain
 - name: Trip.com
   url: http://www.trip.com/
   source: https://www.redpoint.com/companies/
-  slug: skyscanner
+  slug: ctrip
   in_network: true
   is_api_provider: false
   matched_by: domain
 - name: Truex Media
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: truex-media
+  slug: truex-media
+  matched_by: name-slug
 - name: Trunk Tools
   url: https://trunktools.com/
   description: AI agents for construction
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trunk-tools
+  slug: trunk-tools
+  matched_by: domain
 - name: Trusignal
   url: https://www.tru-signal.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trusignal
+  slug: trusignal
+  matched_by: domain
 - name: Tundra
   url: https://www.tundra.com/
   description: Wholesale marketplace for retailers
   sector: ecommerce
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tundra
+  slug: tundra
+  matched_by: domain
 - name: Twilio
   url: https://www.twilio.com/
   description: Cloud communications platform with programmable messaging and voice APIs
@@ -1745,51 +1867,58 @@ companies:
 - name: Valerie Health
   url: https://valeriehealth.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: valerie-health
+  slug: valerie-health
+  matched_by: domain
 - name: Vega
   url: https://vega.io/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vega
+  slug: vega
+  matched_by: domain
 - name: Viajanet
   url: http://www.viajanet.com.br/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: viajanet
+  slug: viajanet
+  matched_by: domain
 - name: Voyce.me
   url: https://www.voyce.me/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voyceme
+  slug: voyceme
+  matched_by: domain
 - name: Vurb
   url: http://vurb.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vurb
+  slug: vurb
+  matched_by: domain
 - name: Wander
   url: https://www.wander.com/
   description: Vacation home rentals with smart-home tech
   sector: consumer
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wander
+  slug: wander
+  matched_by: domain
 - name: Wealthsimple
   url: https://www.wealthsimple.com/en-us/
   description: Consumer investing and financial services platform
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wealthsimple
+  slug: wealthsimple
+  matched_by: domain
 - name: Whatnot
   url: https://www.whatnot.com/
   description: Live-shopping marketplace
@@ -1803,15 +1932,17 @@ companies:
 - name: Wichorus
   status: acquired
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wichorus
+  slug: wichorus
+  matched_by: name-slug
 - name: Wochit
   url: http://www.wochit.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wochit
+  slug: wochit
+  matched_by: domain
 - name: Workato
   url: https://www.workato.com/
   description: Enterprise integration and workflow automation
@@ -1865,9 +1996,10 @@ companies:
 - name: Zimbra
   url: http://www.zimbra.com/
   source: https://www.redpoint.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zimbra
+  slug: zimbra
+  matched_by: domain
 - name: Zuora
   url: https://www.zuora.com/
   description: Subscription management and billing platform
