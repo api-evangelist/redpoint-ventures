@@ -1,4 +1,88 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: redpoint-ventures
-leads: []
+leads:
+- name: Arista Networks
+  url: http://www.aristanetworks.com/
+  suggested_slug: aristanetworks-com
+  sector: infrastructure
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Astro
+  url: https://www.helloastro.com/
+  suggested_slug: astro
+  sector: ''
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Boon
+  url: https://www.getboon.ai/
+  suggested_slug: getboon-ai
+  sector: ''
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Fixie
+  url: https://www.fixie.ai/
+  suggested_slug: fixie-ai
+  sector: ''
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Galileo
+  url: https://galileohealth.com/
+  suggested_slug: galileohealth-com
+  sector: healthtech
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Gravity
+  url: http://www.gravity.com/
+  suggested_slug: gravity-com
+  sector: ''
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Impact Radius
+  url: http://www.impactradius.com/
+  suggested_slug: impact-radius
+  sector: ''
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Next Insurance
+  url: https://www.next-insurance.com/
+  suggested_slug: next-insurance-com
+  sector: fintech
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Pindrop Security
+  url: http://www.pindropsecurity.com/
+  suggested_slug: pindropsecurity-com
+  sector: cybersecurity
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Proper
+  url: https://www.properfinance.io/
+  suggested_slug: properfinance-io
+  sector: fintech
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Revel
+  url: https://www.revel.io/
+  suggested_slug: revel
+  sector: ''
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false
+- name: Sesame
+  url: https://www.sesame.com/
+  suggested_slug: sesame-com
+  sector: ai
+  source_vc: redpoint-ventures
+  source: https://www.redpoint.com/companies/
+  stub_created: false

@@ -3,9 +3,9 @@ method: searched
 source: https://www.redpoint.com/companies/
 summary:
   portfolio_total: 229
-  in_network: 229
-  api_providers: 67
-  missing: 0
+  in_network: 217
+  api_providers: 76
+  missing: 12
   stubs_created: 0
 companies:
 - name: 2U
@@ -87,7 +87,7 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: true
   is_api_provider: true
-  slug: anam
+  slug: anamai
   matched_by: domain
 - name: Answers.com
   url: http://www.answers.com/
@@ -123,8 +123,8 @@ companies:
   status: active
   source: https://www.redpoint.com/companies/
   in_network: true
-  is_api_provider: false
-  slug: arctic-wolf-networks
+  is_api_provider: true
+  slug: arctic-wolf
   matched_by: domain
 - name: Arista Networks
   url: http://www.aristanetworks.com/
@@ -132,10 +132,10 @@ companies:
   sector: infrastructure
   status: ipo
   source: https://www.redpoint.com/companies/
-  slug: arista-networks
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: arista-networks
+  suggested_slug: aristanetworks-com
 - name: Ask
   url: http://www.ask.com/
   source: https://www.redpoint.com/companies/
@@ -146,10 +146,9 @@ companies:
 - name: Astro
   url: https://www.helloastro.com/
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: astro
-  matched_by: name-slug
+  suggested_slug: astro
 - name: Atmosfy
   url: https://atmosfy.io/
   source: https://www.redpoint.com/companies/
@@ -186,7 +185,7 @@ companies:
   source: https://www.redpoint.com/companies/
   slug: autogpt
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Avnera
   url: http://www.avnera.com/
@@ -203,7 +202,7 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: true
   is_api_provider: false
-  slug: bioagelabs
+  slug: bioage-labs
   matched_by: domain
 - name: BitGo
   url: https://www.bitgo.com/info/
@@ -242,10 +241,10 @@ companies:
 - name: Boon
   url: https://www.getboon.ai/
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: boon
-  matched_by: name-slug
+  x-name-collision: boon
+  suggested_slug: getboon-ai
 - name: Bravado
   url: https://bravado.co/
   source: https://www.redpoint.com/companies/
@@ -306,7 +305,7 @@ companies:
   source: https://www.redpoint.com/companies/
   slug: chorus-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Cityblock Health
   url: https://www.cityblock.com/
@@ -316,7 +315,7 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: true
   is_api_provider: false
-  slug: cityblock
+  slug: city-block
   matched_by: domain
 - name: Clearwell Systems
   url: http://www.clearwellsystems.com/
@@ -610,7 +609,7 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: true
   is_api_provider: false
-  slug: fable-security
+  slug: fable
   matched_by: domain
 - name: Fabric
   url: https://fabric.inc/
@@ -642,10 +641,10 @@ companies:
 - name: Fixie
   url: https://www.fixie.ai/
   source: https://www.redpoint.com/companies/
-  in_network: true
-  is_api_provider: true
-  slug: fixie
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: fixie
+  suggested_slug: fixie-ai
 - name: Flexe
   url: https://www.flexe.com/
   description: On-demand warehousing and logistics platform
@@ -671,7 +670,7 @@ companies:
   source: https://www.redpoint.com/companies/
   slug: flora-fauna
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Fortinet
   url: http://www.fortinet.com/
@@ -706,10 +705,10 @@ companies:
   sector: healthtech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: galileo
-  matched_by: name-slug
+  x-name-collision: galileo
+  suggested_slug: galileohealth-com
 - name: Garner
   url: https://www.getgarner.com/
   description: Healthcare data and provider quality platform
@@ -747,10 +746,10 @@ companies:
 - name: Gravity
   url: http://www.gravity.com/
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: gravity
-  matched_by: name-slug
+  x-name-collision: gravity
+  suggested_slug: gravity-com
 - name: GreenPlaces
   url: https://greenplaces.com/
   source: https://www.redpoint.com/companies/
@@ -855,10 +854,9 @@ companies:
 - name: Impact Radius
   url: http://www.impactradius.com/
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: impact-radius
-  matched_by: name-slug
+  suggested_slug: impact-radius
 - name: Imper
   url: https://imper.ai/
   source: https://www.redpoint.com/companies/
@@ -1156,9 +1154,9 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.redpoint.com/companies/
-  slug: modal
+  slug: modal-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Monte Carlo
   url: https://www.montecarlodata.com/
@@ -1178,7 +1176,7 @@ companies:
   source: https://www.redpoint.com/companies/
   slug: moogsoft
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: MotherDuck
   url: https://motherduck.com/
@@ -1239,10 +1237,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  slug: next-insurance
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: next-insurance
+  suggested_slug: next-insurance-com
 - name: Nextdoor
   url: https://nextdoor.com/
   description: Neighborhood social network
@@ -1387,10 +1385,10 @@ companies:
   sector: cybersecurity
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: pindrop-security
-  matched_by: name-slug
+  x-name-collision: pindrop-security
+  suggested_slug: pindropsecurity-com
 - name: Platform9
   url: http://platform9.com/
   description: Managed Kubernetes and private cloud
@@ -1407,9 +1405,9 @@ companies:
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  slug: poolside
+  slug: poolside-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Posterous
   url: http://posterous.com/
@@ -1434,10 +1432,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: proper
-  matched_by: name-slug
+  x-name-collision: proper
+  suggested_slug: properfinance-io
 - name: PsiQuantum
   url: https://psiquantum.com/
   source: https://www.redpoint.com/companies/
@@ -1471,17 +1469,17 @@ companies:
   sector: saas
   status: active
   source: https://www.redpoint.com/companies/
-  slug: qualified
+  slug: qualified-com
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Railway
   url: https://railway.app/
   description: Application deployment and infrastructure platform
   sector: developer-tools
   status: active
   source: https://www.redpoint.com/companies/
-  slug: nixpacks
+  slug: contract-guard
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1506,7 +1504,7 @@ companies:
   url: http://www.responsys.com/
   source: https://www.redpoint.com/companies/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: responsys
   matched_by: name-slug
 - name: Restate
@@ -1522,10 +1520,9 @@ companies:
 - name: Revel
   url: https://www.revel.io/
   source: https://www.redpoint.com/companies/
-  slug: revel
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: revel
 - name: Right Media
   url: http://www.rightmedia.com/index.php
   source: https://www.redpoint.com/companies/
@@ -1539,9 +1536,9 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.redpoint.com/companies/
-  slug: root-insurance
+  slug: root
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Sail
   url: https://www.sailresearch.com/
@@ -1623,10 +1620,10 @@ companies:
   sector: ai
   status: active
   source: https://www.redpoint.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sesame
-  matched_by: name-slug
+  x-name-collision: sesame
+  suggested_slug: sesame-com
 - name: Signadot
   url: https://signadot.com/
   description: Kubernetes environments for microservice testing
@@ -1664,7 +1661,7 @@ companies:
 - name: Solo.io
   url: https://www.solo.io/
   source: https://www.redpoint.com/companies/
-  slug: solo
+  slug: ambient-mesh
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1693,7 +1690,7 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: true
   is_api_provider: true
-  slug: spot
+  slug: spot-ai
   matched_by: domain
 - name: Springpath
   url: http://www.springpathinc.com/
@@ -1793,7 +1790,7 @@ companies:
   sector: data
   status: active
   source: https://www.redpoint.com/companies/
-  slug: timescaledb
+  slug: timescale
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1876,7 +1873,7 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: true
   is_api_provider: false
-  slug: vega
+  slug: vega-security
   matched_by: domain
 - name: Viajanet
   url: http://www.viajanet.com.br/
