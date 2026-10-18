@@ -134,8 +134,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: arista-networks
   suggested_slug: aristanetworks-com
+  x-name-collision: arista-networks
 - name: Ask
   url: http://www.ask.com/
   source: https://www.redpoint.com/companies/
@@ -243,8 +243,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: boon
   suggested_slug: getboon-ai
+  x-name-collision: boon
 - name: Bravado
   url: https://bravado.co/
   source: https://www.redpoint.com/companies/
@@ -643,8 +643,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: fixie
   suggested_slug: fixie-ai
+  x-name-collision: fixie
 - name: Flexe
   url: https://www.flexe.com/
   description: On-demand warehousing and logistics platform
@@ -707,8 +707,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: galileo
   suggested_slug: galileohealth-com
+  x-name-collision: galileo
 - name: Garner
   url: https://www.getgarner.com/
   description: Healthcare data and provider quality platform
@@ -748,8 +748,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: gravity
   suggested_slug: gravity-com
+  x-name-collision: gravity
 - name: GreenPlaces
   url: https://greenplaces.com/
   source: https://www.redpoint.com/companies/
@@ -1230,7 +1230,9 @@ companies:
   slug: netflix
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.netflix.com/unsupportedbrowser
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Next Insurance
   url: https://www.next-insurance.com/
   description: Digital small-business insurance provider
@@ -1239,8 +1241,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: next-insurance
   suggested_slug: next-insurance-com
+  x-name-collision: next-insurance
 - name: Nextdoor
   url: https://nextdoor.com/
   description: Neighborhood social network
@@ -1387,8 +1389,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: pindrop-security
   suggested_slug: pindropsecurity-com
+  x-name-collision: pindrop-security
 - name: Platform9
   url: http://platform9.com/
   description: Managed Kubernetes and private cloud
@@ -1434,8 +1436,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: proper
   suggested_slug: properfinance-io
+  x-name-collision: proper
 - name: PsiQuantum
   url: https://psiquantum.com/
   source: https://www.redpoint.com/companies/
@@ -1622,8 +1624,8 @@ companies:
   source: https://www.redpoint.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: sesame
   suggested_slug: sesame-com
+  x-name-collision: sesame
 - name: Signadot
   url: https://signadot.com/
   description: Kubernetes environments for microservice testing
@@ -1704,7 +1706,9 @@ companies:
   slug: stackrox
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.stackrox.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: StorSimple
   url: http://www.storsimple.com/
   source: https://www.redpoint.com/companies/
